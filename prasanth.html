@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AC Maintance</title>
+    <link rel="stylesheet" href="prasanth.css" />
+  </head>
+  <body>
+    <form action="">
+      <div class="wrap">
+        <div id="head">
+        <h1 class="heading">AC Maintanenance Service</h1>
+      </div>
+        <table>
+          <!--1st row-->
+          <tr>
+            <td>
+              <label for="username">Customer Name </label>
+            </td>
+            <td><input type="text" class="username" /></td>
+          </tr>
+          <!--2st row-->
+          <tr>
+            <td>
+              <label for="number">Mobile Number </label>
+            </td>
+            <td><input type="tel" id="number" /></td>
+          </tr>
+          <!--3rd row-->
+          <tr>
+            <td>
+              <label for="address">Address </label>
+            </td>
+            <td>
+              <textarea name="" id="" cols="30" rows="10">hello</textarea>
+            </td>
+          </tr>
+          <!--4th row-->
+          <tr>
+            <td>
+              <label for="type">AC Type </label>
+            </td>
+            <td>
+              <select name="ac types" id="">
+                <option value="apple">apple</option>
+                <option value="window">window</option>
+                <option value="os">os</option>
+                <option value="android">android</option>
+                <option value="linux">linux</option>
+              </select>
+            </td>
+          </tr>
+          <!--6th row-->
+          <tr>
+            <td rowspan="3">
+              <label for="types" >Service Types </label>
+            </td>
+            <td>
+              <input type="checkbox" class="types" name="cleaning" value="500"/>
+              <label for="types">Cleaning</label></td>
+             <td> <input type="checkbox" class="types" name="gas refill" value="2500"/>
+              <label for="types">Repair</label></td>
+            <tr> <td> <input type="checkbox" class="types" name="repair" value="1500" />
+              <label for="types">Gas Refill</label></td>
+             <td> <input type="checkbox" class="types" name="relocation" value="250" />
+              <label for="types">Relocation</label></td></tr>
+            <tr> <td> <input type="checkbox" class="types" name="filter" value="750"/>
+              <label for="types">Filter</label></td></tr>
+            </td>
+          </tr>
+          <tr>
+            <!--7th row-->
+            <td>
+              <label for="date">Date for Appointment </label>
+            </td>
+            <td><input type="date" id="date" /></td>
+          </tr>
+          <tr>
+            <!--8th row-->
+            <td>
+              <label for="maintenance">Yearly Maintainance </label>
+            </td>
+            <td><input type="checkbox" id="maintenance" name="maintenance" value="1500" /> Select if required</td>
+          </tr>
+        </div>
+        </table>
+      </form>
+          <div class="btn-sec">
+        <button type="submit" onclick="bookAppointment()">Submit</button>
+        <button type="reset">Reset</button>
+          <div>
+          </table>
+        </form>
+      
+    <div>
+    <b id="num"></b><br>
+      <b id="Cost"></b><br>
+      <i id="main"></i><br>
+      <i id="S&M"></i><br>
+      <mark id="discount"></mark>
+      
+    </div>
+  <script src="prasanth.js "></script>
+  </body>
+</html>

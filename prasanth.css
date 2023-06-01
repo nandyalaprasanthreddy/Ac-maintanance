@@ -1,0 +1,34 @@
+#head{
+  
+  display:flex;
+  text-align: center;
+  justify-content: center;
+  background-color: aqua;
+}
+}
+.heading {
+  /* display: flex;
+  justify-content: flex-end; */
+  /* text-align: center; */
+  background-color: rgb(180, 23, 23);
+  /* border-top: 15px solid #4d8adb; */
+  /* padding-left: 2000px; */
+}
+.wrap {
+  background-color: #4d8adb;
+  height: 600px;
+  
+}
+.btn-sec {
+  
+  margin-left: 150px;
+  
+}
+button{
+  width: 90px;
+  height:30px;
+ margin: 10px;
+ background-color: deepskyblue;
+ font-size:15px;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
